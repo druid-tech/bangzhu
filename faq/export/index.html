@@ -3,10 +3,10 @@
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>修改后的配置什么时候生效？ - Druid Online Help</title>
+<title>如何将设备采集的数据导出到本地？ - Druid Online Help</title>
 <meta name="generator" content="Hugo 0.73.0" />
 <link href="https://druid-tech.github.io/help/index.xml" rel="alternate" type="application/rss+xml">
-<link rel="canonical" href="https://druid-tech.github.io/help/faq/setting_effect/">
+<link rel="canonical" href="https://druid-tech.github.io/help/faq/export/">
 <link rel="stylesheet" href="https://druid-tech.github.io/help/css/theme.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://druid-tech.github.io/help/css/chroma.min.css">
@@ -15,15 +15,15 @@
 <script src="https://druid-tech.github.io/help/js/bundle.js"></script><style>
 :root {--custom-background-color: #69becb;}
 </style>
-<meta property="og:title" content="修改后的配置什么时候生效？" />
+<meta property="og:title" content="如何将设备采集的数据导出到本地？" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://druid-tech.github.io/help/faq/setting_effect/" />
+<meta property="og:url" content="https://druid-tech.github.io/help/faq/export/" />
 <meta property="og:updated_time" content="2017-10-17T15:26:15+00:00" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="修改后的配置什么时候生效？"/>
+<meta name="twitter:title" content="如何将设备采集的数据导出到本地？"/>
 <meta name="twitter:description" content=""/>
-<meta itemprop="name" content="修改后的配置什么时候生效？">
+<meta itemprop="name" content="如何将设备采集的数据导出到本地？">
 <meta itemprop="description" content=""></head>
 <body><div class="container"><header>
 <h1>Druid Online Help</h1>
@@ -31,7 +31,17 @@
 </header>
 
 <div class="content-container">
-<main><h1>修改后的配置什么时候生效？</h1><p>在 DEBUT Data Center 或 DEBUT App 修改了设备的配置后，新的配置将保存到服务器，并且不会立即应用于设备。 下次设备与服务器通信时，设备将从服务器获取新配置。 因此，对于具有蜂窝传输功能的设备，新配置将在设备 “下次” 与服务器通信时生效。 对于无法直接与服务器通信的 BLE 设备，新配置在设备与关联的 DEBUT HUB 连接时生效。</p>
+<main><h1>如何将设备采集的数据导出到本地？</h1><ol>
+<li>在主菜单栏单击 “下载管理” &gt; “请求列表” 进入请求列表页面。<br>
+您也可以单击 “下载管理” &gt; “下载列表” 进入下载列表页面。请求页面会列出所有正在生成中的数据列表，下载列表页面会列出所有已生成好并可以进行下载的数据列表。</li>
+<li>在请求列表页面或下载列表页面右上角单击 “数据导出”。</li>
+<li>在设备列表中选择您想要导出数据的设备（可多选）。</li>
+<li>选择需要导出的数据类型、格式以及时间段。<br>可导出的数据类型有 GPS 数据、环境数据、行为数据、基站定位数据和原始数据。<br>可导出的数据格式有 CSV 和 KML（仅限 GPS 数据）两种。<br>时间段以 “月” 为单位，可以选择当前时间之前的所有月份。<br>
+<img src="https://raw.githubusercontent.com/rahjuu/color/master/export.png" style="zoom:80%;" /></li>
+<li>单击 “导出”。<br>数据中心将在后台开始生成数据，数据生成完毕后您可以在下载列表查看。生成数据所需时间视数据量而定。</li>
+<li>在主菜单栏单击 “下载管理” &gt; “下载列表”。</li>
+<li>在下载列表中找到需要导出的数据，然后单击 “下载链接” 进行下载。<br>如果您在下载列表中没有找到需要导出的数据，请耐心等待并刷新页面。</li>
+</ol>
 <footer><p class="powered"><a href="https://www.druid.tech">Druid Technology.</a> All rights reserved.
 </footer>
 </main><div class="sidebar">
@@ -56,7 +66,7 @@
   
 </li>
 
-<li class="parent active"><a href="https://druid-tech.github.io/help/faq/setting_effect/">修改后的配置什么时候生效？</a>
+<li class=""><a href="https://druid-tech.github.io/help/faq/setting_effect/">修改后的配置什么时候生效？</a>
   
 </li>
 
@@ -80,7 +90,7 @@
   
 </li>
 
-<li class=""><a href="https://druid-tech.github.io/help/faq/export/">如何将设备采集的数据导出到本地？</a>
+<li class="parent active"><a href="https://druid-tech.github.io/help/faq/export/">如何将设备采集的数据导出到本地？</a>
   
 </li>
 
