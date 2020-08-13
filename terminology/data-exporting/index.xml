@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>数据导出 on Druid Online Help</title>
-    <link>https://druid-tech.github.io/help/terminology/data-exporting/</link>
+    <link>https://druid-tech.github.io/bangzhu/terminology/data-exporting/</link>
     <description>Recent content in 数据导出 on Druid Online Help</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 17 Oct 2017 15:26:15 +0000</lastBuildDate>
     
-	<atom:link href="https://druid-tech.github.io/help/terminology/data-exporting/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://druid-tech.github.io/bangzhu/terminology/data-exporting/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>GPS 数据</title>
-      <link>https://druid-tech.github.io/help/terminology/data-exporting/gps/</link>
+      <link>https://druid-tech.github.io/bangzhu/terminology/data-exporting/gps/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>https://druid-tech.github.io/help/terminology/data-exporting/gps/</guid>
+      <guid>https://druid-tech.github.io/bangzhu/terminology/data-exporting/gps/</guid>
       <description>GPS 数据中的各项字段的解释如下表所示。 字段 解释 SN 序列号（Serial Number） UUID 通用唯一识别码（Universally Unique Identifie</description>
     </item>
     
     <item>
       <title>环境数据</title>
-      <link>https://druid-tech.github.io/help/terminology/data-exporting/env/</link>
+      <link>https://druid-tech.github.io/bangzhu/terminology/data-exporting/env/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>https://druid-tech.github.io/help/terminology/data-exporting/env/</guid>
+      <guid>https://druid-tech.github.io/bangzhu/terminology/data-exporting/env/</guid>
       <description>环境数据（ENV）中的各项字段的解释如下表所示。 字段 解释 SN 序列号（Serial Number） UUID 通用唯一识别码（Universally Unique Ide</description>
     </item>
     
     <item>
       <title>行为数据</title>
-      <link>https://druid-tech.github.io/help/terminology/data-exporting/bhv/</link>
+      <link>https://druid-tech.github.io/bangzhu/terminology/data-exporting/bhv/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>https://druid-tech.github.io/help/terminology/data-exporting/bhv/</guid>
+      <guid>https://druid-tech.github.io/bangzhu/terminology/data-exporting/bhv/</guid>
       <description>行为数据（BHV）中的各项字段的解释如下表所示。 字段 解释 SN 序列号（Serial Number） UUID 通用唯一识别码（Universally Unique Ide</description>
     </item>
     
     <item>
       <title>原始数据</title>
-      <link>https://druid-tech.github.io/help/terminology/data-exporting/acc/</link>
+      <link>https://druid-tech.github.io/bangzhu/terminology/data-exporting/acc/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>https://druid-tech.github.io/help/terminology/data-exporting/acc/</guid>
+      <guid>https://druid-tech.github.io/bangzhu/terminology/data-exporting/acc/</guid>
       <description>原始数据（ACC）中的各项字段的解释如下表所示。 字段 解释 Collecting time 设备采集数据的时间，精确到秒。 X 三轴加速度计 X 轴的值。 Y 三轴加速度计 Y 轴的值。 Z</description>
     </item>
     
     <item>
       <title>基站定位数据</title>
-      <link>https://druid-tech.github.io/help/terminology/data-exporting/bss/</link>
+      <link>https://druid-tech.github.io/bangzhu/terminology/data-exporting/bss/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>https://druid-tech.github.io/help/terminology/data-exporting/bss/</guid>
+      <guid>https://druid-tech.github.io/bangzhu/terminology/data-exporting/bss/</guid>
       <description>基站定位数据（BSS）中的各项字段的解释如下表所示。 字段 解释 SN 序列号（Serial Number） UUID 通用唯一识别码（Universally Unique I</description>
     </item>
     
