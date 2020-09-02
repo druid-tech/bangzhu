@@ -528,25 +528,28 @@ video {
 
 table {
   border-collapse: collapse;
-  border: 1px solid #f0f0f0;
+  border: 1px solid #fafafa;
   width: 100%;
+  rules: none;
 }
 
 th,
 td {
-  border-top: 1px solid #f0f0f0;
-  border-right: 1px solid #f0f0f0;
+  border-top: 1px solid #fafafa;
+  border-right: 1px solid #fafafa;
   padding: .6rem;
+  rules: none;
 }
 
 tr:nth-child(even) th, tr:nth-child(even)
 td {
-  background: #f8f8f8;
+  background: #fafafa;
 }
 
 th {
-  background: #eee;
+  background: #fafafa;
   font-weight: bold;
+  rule: none;
   text-align: left;
 }
 
