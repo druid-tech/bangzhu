@@ -3,10 +3,10 @@
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>数据导出 - Druid Online Help</title>
+<title>如何将导出文件中的 ISO 时间格式转换为 Excel 时间格式？ - Druid Online Help</title>
 <meta name="generator" content="Hugo 0.73.0" />
 <link href="https://druid-tech.github.io/bangzhu/index.xml" rel="alternate" type="application/rss+xml">
-<link rel="canonical" href="https://druid-tech.github.io/bangzhu/terminology/data-exporting/">
+<link rel="canonical" href="https://druid-tech.github.io/bangzhu/faq/iso2excel/">
 <link rel="stylesheet" href="https://druid-tech.github.io/bangzhu/css/theme.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://druid-tech.github.io/bangzhu/css/chroma.min.css">
@@ -15,15 +15,15 @@
 <script src="https://druid-tech.github.io/bangzhu/js/bundle.js"></script><style>
 :root {--custom-background-color: #69becb;}
 </style>
-<meta property="og:title" content="数据导出" />
+<meta property="og:title" content="如何将导出文件中的 ISO 时间格式转换为 Excel 时间格式？" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://druid-tech.github.io/bangzhu/terminology/data-exporting/" />
+<meta property="og:url" content="https://druid-tech.github.io/bangzhu/faq/iso2excel/" />
 <meta property="og:updated_time" content="2017-10-17T15:26:15+00:00" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="数据导出"/>
+<meta name="twitter:title" content="如何将导出文件中的 ISO 时间格式转换为 Excel 时间格式？"/>
 <meta name="twitter:description" content=""/>
-<meta itemprop="name" content="数据导出">
+<meta itemprop="name" content="如何将导出文件中的 ISO 时间格式转换为 Excel 时间格式？">
 <meta itemprop="description" content=""></head>
 <body><div class="container"><header>
 <h1>Druid Online Help</h1>
@@ -31,7 +31,29 @@
 </header>
 
 <div class="content-container">
-<main><h1>数据导出</h1><p>本章节解释了从数据中心导出的各项 CSV 数据所代表的意义。</p>
+<main><h1>如何将导出文件中的 ISO 时间格式转换为 Excel 时间格式？</h1><p>您从数据中心下载到本地的 CSV 格式的数据中，通信时间（Transmitting time）和采集时间（Collecting time）列采用的是 ISO 8601 时间格式，比如 <code>2020-09-01T16:00:34Z</code>。ISO 8601 的时间格式无法被 Excel 识别，在 Excel 中生成图表时会出现错误。请按照下列步骤将 ISO 8601 时间格式转换为 Excel 时间格式。</p>
+<ol>
+<li>
+<p>在任意空白列的第一个单元格输入以下公式。<br>
+<code>=DATEVALUE(MID(A1,1,10))+TIMEVALUE(MID(A1,12,8))</code></p>
+</li>
+<li>
+<p>对公式进行修改。<br>上述公式中的 <code>A1</code> 表示 Excel 中 A 列的第一个单元格。将公式两处 <code>A1</code> 中的 <code>A</code> 修改为 CSV 文件中 ISO 8601 时间实际所在的列。比如，您要转换位的时间位于 D 列，则需要将公式中的两处 <code>A1</code> 修改为 <code>D1</code>： <code>=DATEVALUE(MID(D1,1,10))+TIMEVALUE(MID(D1,12,8))</code>。</p>
+</li>
+<li>
+<p>选择第一步中输入公式的单元格，然后将填充手柄拖到列的末尾。<br>
+该列的 ISO 8601 时间会自动转换为能被 Excel 识别的字符串。</p>
+</li>
+<li>
+<p>右键选中整列然后在弹出菜单中选择“设置单元格格式”。</p>
+</li>
+<li>
+<p>选择“日期”。</p>
+</li>
+<li>
+<p>根据需要选择一个合适的日期格式。</p>
+</li>
+</ol>
 <footer><p class="powered"><a href="https://www.druid.tech">Druid Technology.</a> All rights reserved.
 </footer>
 </main><div class="sidebar">
@@ -40,7 +62,7 @@
 <ul>
 <li class=""><a href="https://druid-tech.github.io/bangzhu">首页</a></li>
 
-<li class=""><a href="https://druid-tech.github.io/bangzhu/faq/">常见问题解答</a>
+<li class="parent"><a href="https://druid-tech.github.io/bangzhu/faq/">常见问题解答</a>
   
 <ul class="sub-menu">
 
@@ -100,18 +122,18 @@
   
 </li>
 
-<li class=""><a href="https://druid-tech.github.io/bangzhu/faq/iso2excel/">如何将导出文件中的 ISO 时间格式转换为 Excel 时间格式？</a>
+<li class="parent active"><a href="https://druid-tech.github.io/bangzhu/faq/iso2excel/">如何将导出文件中的 ISO 时间格式转换为 Excel 时间格式？</a>
   
 </li>
 </ul>
   
 </li>
 
-<li class="parent"><a href="https://druid-tech.github.io/bangzhu/terminology/">术语解释</a>
+<li class=""><a href="https://druid-tech.github.io/bangzhu/terminology/">术语解释</a>
   
 <ul class="sub-menu">
 
-<li class="parent active"><a href="https://druid-tech.github.io/bangzhu/terminology/data-exporting/">数据导出</a>
+<li class=""><a href="https://druid-tech.github.io/bangzhu/terminology/data-exporting/">数据导出</a>
   
 <ul class="sub-menu">
 <li class=""><a href="https://druid-tech.github.io/bangzhu/terminology/data-exporting/gps/">GPS 数据</a></li>
