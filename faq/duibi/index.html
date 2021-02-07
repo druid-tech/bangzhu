@@ -3,10 +3,10 @@
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>配置项及参数解释 - Druid Online Help</title>
+<title>如何在静态轨迹地图上使用对比功能？ - Druid Online Help</title>
 <meta name="generator" content="Hugo 0.73.0" />
 <link href="https://druid-tech.github.io/bangzhu/index.xml" rel="alternate" type="application/rss+xml">
-<link rel="canonical" href="https://druid-tech.github.io/bangzhu/terminology/device-setting/">
+<link rel="canonical" href="https://druid-tech.github.io/bangzhu/faq/duibi/">
 <link rel="stylesheet" href="https://druid-tech.github.io/bangzhu/css/theme.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://druid-tech.github.io/bangzhu/css/chroma.min.css">
@@ -15,15 +15,15 @@
 <script src="https://druid-tech.github.io/bangzhu/js/bundle.js"></script><style>
 :root {--custom-background-color: #69becb;}
 </style>
-<meta property="og:title" content="配置项及参数解释" />
+<meta property="og:title" content="如何在静态轨迹地图上使用对比功能？" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://druid-tech.github.io/bangzhu/terminology/device-setting/" />
+<meta property="og:url" content="https://druid-tech.github.io/bangzhu/faq/duibi/" />
 <meta property="og:updated_time" content="2017-10-17T15:26:15+00:00" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="配置项及参数解释"/>
+<meta name="twitter:title" content="如何在静态轨迹地图上使用对比功能？"/>
 <meta name="twitter:description" content=""/>
-<meta itemprop="name" content="配置项及参数解释">
+<meta itemprop="name" content="如何在静态轨迹地图上使用对比功能？">
 <meta itemprop="description" content=""></head>
 <body><div class="container"><header>
 <h1>Druid Online Help</h1>
@@ -31,36 +31,22 @@
 </header>
 
 <div class="content-container">
-<main><h1>配置项及参数解释</h1><p>本章节解释了设备配置页面各配置项的含义。<br>
-<img src="https://raw.githubusercontent.com/rahjuu/color/master/配置项参数.png" style="zoom:80%;" /></p>
-<p><strong>配置模式</strong></p>
-<p>实时模式<br>
-位置数据, 环境数据和行为数据的采集间隔为 10 分钟。通信间隔为 1 天。此模式的耗电量最高，采集间隔和通信间隔无法修改。</p>
-<p>标准模式<br>
-位置数据和环境数据的采集间隔为 1 小时，行为数据的采集间隔为 10 分钟。通信间隔为 8 小时。此模式为出厂时的默认配置，采集间隔和通信间隔无法修改。</p>
-<p>省电模式<br>
-位置数据和环境数据的采集间隔为 4 小时，行为数据采集关闭。通信间隔为 1 天。此模式耗电量较低，采集间隔和通信间隔无法修改。</p>
-<p>待机模式<br>
-位置数据, 环境数据和行为数据采集均关闭，通信间隔为 1 天。此模式的耗电量最低，采集间隔和通信间隔无法修改。</p>
-<p>自定义模式<br>
-您可以自由设置各类数据的采集间隔和通信间隔。</p>
-<p><strong>配置项及参数</strong></p>
-<p>BOOST<br>
-开启或关闭 <a href="/bangzhu/faq/boost/">BOOST</a>。</p>
-<p>位置数据<br>
-开启或关闭位置数据采集以及配置位置数据的采集间隔。可配置为“周期模式”或“跟随通信”。</p>
-<p>环境数据<br>
-开启或关闭环境数据采集以及配置环境数据的采集间隔。可配置为“周期模式”或“跟随通信”。</p>
-<p>行为数据采集<br>
-开启或关闭行为数据采集以及配置行为数据的采集间隔。可配置为“10 分钟”或“30 分钟”。</p>
-<p>蜂窝网络通信<br>
-开启或关闭蜂窝网络通信功能以及配置蜂窝网络通信的时间间隔。可配置为“周期模式”或“整点模式”。</p>
-<p>周期模式<br>
-设备以设定的时间间隔进行数据采集和通信。</p>
-<p>跟随通信<br>
-设备的数据采集间隔与通信间隔保持一直。</p>
-<p>整点模式<br>
-设备在选择的整点（以 Debut 数据中心设定的时区为准）进行通信，最多选择 3 个时间点。</p>
+<main><h1>如何在静态轨迹地图上使用对比功能？</h1><p>您可以在静态轨迹地图上通过添加对比项来查看不同设备或同一个设备在不同时间、通过不同通信方式和不同数据采集方式生成的运动轨迹。在使用对比功能前需要先生成设备的静态轨迹。</p>
+<ol>
+<li>在主菜单栏单击“德鲁伊地球” &gt; “静态轨迹（2D）”。<br>DEBUT 数据中心在新的窗口打开地图页面。</li>
+<li>在地图页面左上角的搜索栏输入设备编号。<br>搜索结果会在显示在搜索栏下方。</li>
+<li>点击搜索出来的设备。<br>DEBUT 数据中心会在地图上显示该设备的轨迹。</li>
+<li>在地图页面右侧的控制面板选择不同的对比项。<br>您可以选择的对比项如下图所示：<br>
+<img src="https://raw.githubusercontent.com/rahjuu/color/master/对比项.PNG" style="zoom:60%;" /><br>
+日期：设备在不同日期的轨迹。<br>
+时间范围：设备在某个时间范围内的轨迹。时间范围最小 1 天，最大 7 天。<br>
+通信方式：由不同通信方式回传的位置数据生成的轨迹。不同的通信方式包括蜂窝网络通信、北斗卫星通信、Argos 卫星通信和短信。当时间范围大于 1 天时该项不可用。<br>
+数据采集：由不同数据采集方式获取的位置数据生成的轨迹。不同的数据采集方式包括计划采集、变频优化和飞行识别。当时间范围大于 1 天，或通信方式<strong>不是</strong>蜂窝网络通信时，该项不可用<br>
+选择完成后单击 <img src="https://raw.githubusercontent.com/rahjuu/color/master/add_device.svg" style="zoom:35%;" /> 图标添加到对比项。添加对比项后，控制面板左侧会弹出一个窗口，列出已添加的对比项。您最多可以添加 5 个不同的对比项。<br>
+<img src="https://raw.githubusercontent.com/rahjuu/color/master/对比项侧窗.PNG" style="zoom:70%;" /><br></li>
+<li>单击不同的对比项，DEBUT 数据中心会在地图上用不同的颜色显示其轨迹。
+<img src="https://raw.githubusercontent.com/rahjuu/color/master/静态轨迹对比.PNG" style="zoom:85%;" /><br></li>
+</ol>
 <footer><p class="powered"><a href="https://www.druid.tech">Druid Technology.</a> All rights reserved.
 </footer>
 </main><div class="sidebar">
@@ -69,7 +55,7 @@
 <ul>
 <li class=""><a href="https://druid-tech.github.io/bangzhu">首页</a></li>
 
-<li class=""><a href="https://druid-tech.github.io/bangzhu/faq/">常见问题解答</a>
+<li class="parent"><a href="https://druid-tech.github.io/bangzhu/faq/">常见问题解答</a>
   
 <ul class="sub-menu">
 
@@ -133,14 +119,14 @@
   
 </li>
 
-<li class=""><a href="https://druid-tech.github.io/bangzhu/faq/duibi/">如何在静态轨迹地图上使用对比功能？</a>
+<li class="parent active"><a href="https://druid-tech.github.io/bangzhu/faq/duibi/">如何在静态轨迹地图上使用对比功能？</a>
   
 </li>
 </ul>
   
 </li>
 
-<li class="parent"><a href="https://druid-tech.github.io/bangzhu/terminology/">术语解释</a>
+<li class=""><a href="https://druid-tech.github.io/bangzhu/terminology/">术语解释</a>
   
 <ul class="sub-menu">
 
@@ -156,7 +142,7 @@
   
 </li>
 
-<li class="parent active"><a href="https://druid-tech.github.io/bangzhu/terminology/device-setting/">配置项及参数解释</a>
+<li class=""><a href="https://druid-tech.github.io/bangzhu/terminology/device-setting/">配置项及参数解释</a>
   
 </li>
 </ul>

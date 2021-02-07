@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>GPS 数据</title>
+      <title>位置数据</title>
       <link>https://druid-tech.github.io/bangzhu/terminology/data-exporting/gps/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
       <guid>https://druid-tech.github.io/bangzhu/terminology/data-exporting/gps/</guid>
-      <description>GPS 数据中的各项字段的解释如下表所示。 字段 解释 SN 序列号（Serial Number） UUID 通用唯一识别码（Universally Unique Identifie</description>
+      <description>位置数据中的各项字段的解释如下表所示。 字段 解释 SN 序列号（Serial Number） UUID 通用唯一识别码（Universally Unique Identifi</description>
     </item>
     
     <item>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>数据导出 on Druid Online Help</title>
+    <title>数据导出字段解释 on Druid Online Help</title>
     <link>https://druid-tech.github.io/bangzhu/terminology/data-exporting/</link>
-    <description>Recent content in 数据导出 on Druid Online Help</description>
+    <description>Recent content in 数据导出字段解释 on Druid Online Help</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 17 Oct 2017 15:26:15 +0000</lastBuildDate>
@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>GPS 数据</title>
+      <title>位置数据</title>
       <link>https://druid-tech.github.io/bangzhu/terminology/data-exporting/gps/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
       <guid>https://druid-tech.github.io/bangzhu/terminology/data-exporting/gps/</guid>
-      <description>GPS 数据中的各项字段的解释如下表所示。 字段 解释 SN 序列号（Serial Number） UUID 通用唯一识别码（Universally Unique Identifie</description>
+      <description>位置数据中的各项字段的解释如下表所示。 字段 解释 SN 序列号（Serial Number） UUID 通用唯一识别码（Universally Unique Identifi</description>
     </item>
     
     <item>
