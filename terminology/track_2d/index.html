@@ -3,10 +3,10 @@
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Tags - Druid Online Help</title>
+<title>静态轨迹页面释义 - Druid Online Help</title>
 <meta name="generator" content="Hugo 0.73.0" />
 <link href="https://druid-tech.github.io/bangzhu/index.xml" rel="alternate" type="application/rss+xml">
-<link rel="canonical" href="https://druid-tech.github.io/bangzhu/tags/">
+<link rel="canonical" href="https://druid-tech.github.io/bangzhu/terminology/track_2d/">
 <link rel="stylesheet" href="https://druid-tech.github.io/bangzhu/css/theme.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://druid-tech.github.io/bangzhu/css/chroma.min.css">
@@ -15,15 +15,15 @@
 <script src="https://druid-tech.github.io/bangzhu/js/bundle.js"></script><style>
 :root {--custom-background-color: #69becb;}
 </style>
-<meta property="og:title" content="Tags" />
+<meta property="og:title" content="静态轨迹页面释义" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://druid-tech.github.io/bangzhu/tags/" />
-
+<meta property="og:url" content="https://druid-tech.github.io/bangzhu/terminology/track_2d/" />
+<meta property="og:updated_time" content="2017-10-17T15:26:15+00:00" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tags"/>
+<meta name="twitter:title" content="静态轨迹页面释义"/>
 <meta name="twitter:description" content=""/>
-<meta itemprop="name" content="Tags">
+<meta itemprop="name" content="静态轨迹页面释义">
 <meta itemprop="description" content=""></head>
 <body><div class="container"><header>
 <h1>Druid Online Help</h1>
@@ -31,7 +31,28 @@
 </header>
 
 <div class="content-container">
-<main><h1>Tags</h1><footer><p class="powered"><a href="https://www.druid.tech">Druid Technology.</a> All rights reserved.
+<main><h1>静态轨迹页面释义</h1><p>设备的静态轨迹页面如下图所示：<br>
+<img src="https://raw.githubusercontent.com/rahjuu/color/master/静态轨迹解释.png" style="zoom:65%;" /></p>
+<p>该页面包含以下内容：</p>
+<ol>
+<li>搜索栏<br>搜索设备或围栏。<img src="https://raw.githubusercontent.com/rahjuu/color/master/轨迹图标.svg" style="zoom:8%;" /> 图标表示当前为设备搜索，输入设备 SN 即可在地图上显示该设备的轨迹。单击该图标使其切换为 <img src="https://raw.githubusercontent.com/rahjuu/color/master/围栏图标.svg" style="zoom:8%;" />，此时为围栏搜索。输入围栏名称即可在地图上显示该围栏的位置及边界范围。</li>
+<li>切换显示<br>单击按钮切换显示不同内容
+<ul>
+<li><img src="https://raw.githubusercontent.com/rahjuu/color/master/位置点图标.svg" style="zoom:8%;" />：显示您账号下所有设备的位置。</li>
+<li><img src="https://raw.githubusercontent.com/rahjuu/color/master/围栏图标.svg" style="zoom:8%;" />：显示您最近一次（关闭浏览器以前）浏览过的电子围栏。如果您没有浏览任何电子围栏，则该图标不可点击。</li>
+<li><img src="https://raw.githubusercontent.com/rahjuu/color/master/轨迹图标.svg" style="zoom:8%;" />：默认选项。显示设备的轨迹。</li>
+<li><img src="https://raw.githubusercontent.com/rahjuu/color/master/展开收起.svg" style="zoom:8%;" />：收起或展开该控制面板。</li>
+</ul>
+</li>
+<li>轨迹时间跨度<br>显示最近一天、最近一月或最近一年的设备轨迹。“最近” 指的是设备最后一次和服务器通信的时间，而非当前时间。</li>
+<li>轨迹日期<br>选择显示具体某一天的设备轨迹。</li>
+<li>轨迹日期范围<br>以轨迹日期所选择的日期为基准，显示至所选日期起之前 1 ~ 7 天的设备轨迹。</li>
+<li>通信方式<br>由不同通信方式回传的位置数据生成的轨迹。不同的通信方式包括蜂窝网络通信、北斗卫星通信、Argos 卫星通信和短信。当轨迹日期范围大于 1 天时该项不可用。</li>
+<li>数据采集类别<br>由不同数据采集方式获取的位置数据生成的轨迹。不同的数据采集方式包括计划采集、变频优化和飞行识别。当轨迹日期范围大于 1 天，或通信方式<strong>不是</strong>蜂窝网络通信时，该项不可用</li>
+<li>位置点显示方式<br>以 “标记” 或 “集群” 的方式显示设备的定位点。标记模式会显示每个定位点，集群模式会在放大地图的时候将距离较近的定位点合在一起。</li>
+<li>数据图表<br>单击相应标签显示数据图表。可显示的数据包括位置数据（GPS）、环境数据（ENV）以及行为数据（ODBA）。单击 <img src="https://raw.githubusercontent.com/rahjuu/color/master/图表展开.svg" style="zoom:8%;" /> 图标可将 3 个图表同时展示在页面下方。</li>
+</ol>
+<footer><p class="powered"><a href="https://www.druid.tech">Druid Technology.</a> All rights reserved.
 </footer>
 </main><div class="sidebar">
 
@@ -114,7 +135,7 @@
   
 </li>
 
-<li class=""><a href="https://druid-tech.github.io/bangzhu/terminology/">术语解释</a>
+<li class="parent"><a href="https://druid-tech.github.io/bangzhu/terminology/">术语解释</a>
   
 <ul class="sub-menu">
 
@@ -130,7 +151,7 @@
   
 </li>
 
-<li class=""><a href="https://druid-tech.github.io/bangzhu/terminology/track_2d/">静态轨迹页面释义</a>
+<li class="parent active"><a href="https://druid-tech.github.io/bangzhu/terminology/track_2d/">静态轨迹页面释义</a>
   
 </li>
 

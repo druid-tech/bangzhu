@@ -34,6 +34,9 @@
 <main><h1>如何将导出文件中的 ISO 时间格式转换为 Excel 时间格式？</h1><p>您从数据中心下载到本地的 CSV 格式的数据中，通信时间（Transmitting time）和采集时间（Collecting time）列采用的是 ISO 8601 时间格式，比如 <code>2020-09-01T16:00:34Z</code>。ISO 8601 的时间格式无法被 Excel 识别，在 Excel 中生成图表时会出现错误。请按照下列步骤将 ISO 8601 时间格式转换为 Excel 时间格式。</p>
 <ol>
 <li>
+<p>在 Excel 中打开下载好的 CSV 文件。</p>
+</li>
+<li>
 <p>在任意空白列的第一个单元格输入以下公式。<br>
 <code>=DATEVALUE(MID(A1,1,10))+TIMEVALUE(MID(A1,12,8))</code></p>
 </li>
@@ -129,6 +132,10 @@
 <li class=""><a href="https://druid-tech.github.io/bangzhu/faq/duibi/">如何在静态轨迹地图上使用对比功能？</a>
   
 </li>
+
+<li class=""><a href="https://druid-tech.github.io/bangzhu/faq/movebank/">如何将数据同步到 MoveBank？</a>
+  
+</li>
 </ul>
   
 </li>
@@ -146,6 +153,10 @@
 <li class=""><a href="https://druid-tech.github.io/bangzhu/terminology/data-exporting/acc/">原始数据</a></li>
 <li class=""><a href="https://druid-tech.github.io/bangzhu/terminology/data-exporting/bss/">基站定位数据</a></li>
 </ul>
+  
+</li>
+
+<li class=""><a href="https://druid-tech.github.io/bangzhu/terminology/track_2d/">静态轨迹页面释义</a>
   
 </li>
 
