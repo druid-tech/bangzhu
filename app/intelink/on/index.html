@@ -3,10 +3,10 @@
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Categories - Druid Online Help</title>
+<title>设备开机 - Druid Online Help</title>
 <meta name="generator" content="Hugo 0.73.0" />
 <link href="https://druid-tech.github.io/bangzhu/index.xml" rel="alternate" type="application/rss+xml">
-<link rel="canonical" href="https://druid-tech.github.io/bangzhu/categories/">
+<link rel="canonical" href="https://druid-tech.github.io/bangzhu/app/intelink/on/">
 <link rel="stylesheet" href="https://druid-tech.github.io/bangzhu/css/theme.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://druid-tech.github.io/bangzhu/css/chroma.min.css">
@@ -15,15 +15,15 @@
 <script src="https://druid-tech.github.io/bangzhu/js/bundle.js"></script><style>
 :root {--custom-background-color: #69becb;}
 </style>
-<meta property="og:title" content="Categories" />
+<meta property="og:title" content="设备开机" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://druid-tech.github.io/bangzhu/categories/" />
-
+<meta property="og:url" content="https://druid-tech.github.io/bangzhu/app/intelink/on/" />
+<meta property="og:updated_time" content="2017-10-17T15:26:15+00:00" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Categories"/>
+<meta name="twitter:title" content="设备开机"/>
 <meta name="twitter:description" content=""/>
-<meta itemprop="name" content="Categories">
+<meta itemprop="name" content="设备开机">
 <meta itemprop="description" content=""></head>
 <body><div class="container"><header>
 <h1>Druid Online Help</h1>
@@ -31,7 +31,17 @@
 </header>
 
 <div class="content-container">
-<main><h1>Categories</h1><footer><p class="powered"><a href="https://www.druid.tech">Druid Technology.</a> All rights reserved.
+<main><h1>设备开机</h1><p>请确保手机蓝牙已开启。</p>
+<ol>
+<li>摇晃设备唤醒设备的蓝牙。<br>蓝牙唤醒后，设备 LED 会开始闪烁，持续约 60 秒。</li>
+<li>打开 DEBUT App 并点击 <img src="https://raw.githubusercontent.com/rahjuu/color/master/蓝牙扫描.png" style="zoom:35%;" /> 图标。<br>App 会列出您账号下的所有设备。您可以在设备列表中看到设备编号、设备的 MAC 地址以及设备的 UUID。<br><img src="https://raw.githubusercontent.com/rahjuu/color/master/网关图标.svg" style="zoom:4%;" /> 图标表示该设备为网关设备，比如 HUB 等。<br><img src="https://raw.githubusercontent.com/rahjuu/color/master/设备图标.svg" style="zoom:4%;" /> 图标表示该设备为终端设备，比如 FLEX, LEGO, MINI, NANO 等。</li>
+<li>选择您需要开机的设备。<br>您购买的设备背面印有 MAC 地址（部分设备是 MAC 地址的后 4 位），您可以和设备列表中显示的 MAC 地址进行对比来识别每一台设备。长按列表中的设备可进行多选，您可以选择任意数量的设备进行开机操作。</li>
+<li>点击 “下一步”（选择单个设备时无此步骤）。</li>
+<li>在弹出菜单中点击 “开机/关机” &gt; “开机”。<br>App 进入开机配置选择页面。您可以在开机时修改设备的数据采集间隔和通信间隔，如果您不修改，设备会使用默认配置。勾选 “修改配置” 并单击 “下一步” 进入设备配置页面。<br>如果您不勾选 “修改配置”，单击 “下一步” 后就进入连接设备界面。</li>
+<li>根据您的需要修改设备配置，修改完成后单击 “保存”。<br>App 进入设备连接界面，开始自动连接设备进行开机操作。App 会通过 INTELINK 尝试连接设备。如果设备距离较远，不在 App 的连接范围内，则 60 秒后 App 会自动开始连接附近的中继设备（HUB 或 QUEST），然后通过中继设备去连接设备。您可以点击 “跳过”，则 App 会立即开始连接中继设备。设备连接成功后 App 会自动将设备开机，开机完成后自动返回主界面。<br><strong>注意</strong>：App 使用 INTELINK 通过 HUB 网关连接其他设备之前，您必须将被连接设备添加到该网关名下。详细信息请参见<a href="/bangzhu/app/device/add_terminal/">添加终端</a></li>
+</ol>
+<p>App 每次可以同时操作 4 台设备。如果您在第 4 步选择的设备数量大于 4 台，则 App 在完成 4 台设备的操作后，会自动开始连接其余设备并进行相应操作，直至选择的所有设备全部完成。</p>
+<footer><p class="powered"><a href="https://www.druid.tech">Druid Technology.</a> All rights reserved.
 </footer>
 </main><div class="sidebar">
 
@@ -173,15 +183,15 @@
   
 </li>
 
-<li class=""><a href="https://druid-tech.github.io/bangzhu/app/">DEBUT App 在线使用帮助</a>
+<li class="parent"><a href="https://druid-tech.github.io/bangzhu/app/">DEBUT App 在线使用帮助</a>
   
 <ul class="sub-menu">
 
-<li class=""><a href="https://druid-tech.github.io/bangzhu/app/intelink/">INTELINK</a>
+<li class="parent"><a href="https://druid-tech.github.io/bangzhu/app/intelink/">INTELINK</a>
   
 <ul class="sub-menu">
 
-<li class=""><a href="https://druid-tech.github.io/bangzhu/app/intelink/on/">设备开机</a>
+<li class="parent active"><a href="https://druid-tech.github.io/bangzhu/app/intelink/on/">设备开机</a>
   
 </li>
 
