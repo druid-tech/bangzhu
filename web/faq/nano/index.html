@@ -3,10 +3,10 @@
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>如何使用德鲁伊地球生成动态轨迹？ - Druid Online Help</title>
+<title>NANO 与其他 DEBUT 设备有何不同？ - Druid Online Help</title>
 <meta name="generator" content="Hugo 0.83.1" />
 <link href="https://druid-tech.github.io/bangzhu//index.xml" rel="alternate" type="application/rss+xml">
-<link rel="canonical" href="https://druid-tech.github.io/bangzhu/web/earth/earth/">
+<link rel="canonical" href="https://druid-tech.github.io/bangzhu/web/faq/nano/">
 <link rel="stylesheet" href="https://druid-tech.github.io/bangzhu/css/theme.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://druid-tech.github.io/bangzhu/css/chroma.min.css">
@@ -15,15 +15,15 @@
 <script src="https://druid-tech.github.io/bangzhu/js/bundle.js"></script><style>
 :root {--custom-background-color: #69becb;}
 </style>
-<meta property="og:title" content="如何使用德鲁伊地球生成动态轨迹？" />
+<meta property="og:title" content="NANO 与其他 DEBUT 设备有何不同？" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://druid-tech.github.io/bangzhu/web/earth/earth/" />
+<meta property="og:url" content="https://druid-tech.github.io/bangzhu/web/faq/nano/" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="如何使用德鲁伊地球生成动态轨迹？"/>
+<meta name="twitter:title" content="NANO 与其他 DEBUT 设备有何不同？"/>
 <meta name="twitter:description" content=""/>
-<meta itemprop="name" content="如何使用德鲁伊地球生成动态轨迹？">
+<meta itemprop="name" content="NANO 与其他 DEBUT 设备有何不同？">
 <meta itemprop="description" content=""></head>
 <body><div class="container"><header>
 <h1>Druid Online Help</h1>
@@ -31,21 +31,11 @@
 </header>
 
 <div class="content-container">
-<main><h1>如何使用德鲁伊地球生成动态轨迹？</h1><p>在开始前请确保您已经预先导出了 CSV 格式的 GPS 数据。如果您不清楚如何导出 CSV 格式的 GPS 数据，请查阅<a href="/bangzhu/web/analysis/export/">数据下载</a>相关内容。</p>
-<ol>
-<li>在主菜单栏单击 “德鲁伊地球” &gt; “动态轨迹（3D）”。<br>数据中心会打开一个新的窗口。<br><img src="https://raw.githubusercontent.com/rahjuu/color/master/动态轨迹页面.PNG" style="zoom:60%;" /><br>新窗口包含以下内容：
+<main><h1>NANO 与其他 DEBUT 设备有何不同？</h1><p>NANO 与其他 DEBUT 设备最大的不同是不具备蜂窝网络/卫星/LORA 传输模块，不能直接和服务器进行通信。因此，NANO 无法将采集的数据直接发送到服务器。要获取 NANO 采集的数据，您可以使用 INTELINK 通过两种方式来获取：</p>
 <ul>
-<li>数据来源<br>生成动态轨迹的数据来源。选择 “当前设备” 则需要在搜索栏输入设备编号搜索设备。选择 “本地文件” 则会要求您上次预先下载的 CSV 格式的 GPS 数据。</li>
-<li>设备搜索<br>输入设备编号搜索设备。如果选择 “本地文件”，则该项会被替换为 “上传CSV文件” 按钮。</li>
-<li>时间范围<br>选择数据的时间范围。如果选择 “本地文件”，则无选项。</li>
-<li>数据筛选<br>选择仅生成飞行识别期间的运动轨迹或生成所选时间范围内的全部运动轨迹。如果选择 “本地文件”，则无选项。</li>
-<li>控制面板<br>开启或关闭地图效果。</li>
-<li>播放控制<br>开始/暂停播放以及选择播放速度。</li>
-<li>进度条<br>播放进度条，可以拖动进度条调整播放进度。</li>
+<li>使用 DEBUT App<br>使用一台安装了 DEBUT App 的智能手机，通过 INTELINK 功能来下载 NANO 采集的数据，下载的数据会由手机自动回传到服务器。详细内容请参见<a href="/bangzhu/app/intelink/download/">数据下载</a>。</li>
+<li>通过 DEBUT HUB 自动收集<br>通过部署 DEBUT HUB 来自动下载并上传覆盖范围内的 NANO 采集的数据。部署 HUB 后，您需要将 NANO 添加到 HUB 的白名单中，否则 HUB 将不会与白名单外的设备发生交互，详细内容请参见<a href="/bangzhu/app/device/add_terminal/">添加终端</a>。将 NANO 添加到 HUB 的白名单后，HUB 将根据设置，自动下载覆盖范围内的 NANO 采集的数据，然后将下载的数据自动上传至服务器。</li>
 </ul>
-</li>
-<li>选择 “当前设备”：在设备搜索栏输入设备编号搜索设备，然后选择时间范围。完成后数据中心会根据选择生成 3D 动态飞行轨迹。<br>选择 “本地文件”：从本地上传已经导出的 CSV 格式的 GPS 数据。上传 CSV 文件后浏览器会自动开始加载动态轨迹，加载时间视文件大小而定，可长达数十分钟。数据加载完成后，在右侧控制面板单击 “开始” 播放轨迹。</li>
-</ol>
 <footer><p class="powered"><a href="https://www.druid.tech">Druid Technology.</a> All rights reserved.
 </footer>
 </main><div class="sidebar">
@@ -58,7 +48,7 @@
   
 <ul class="sub-menu">
 
-<li class="parent"><a href="https://druid-tech.github.io/bangzhu/web/earth/">德鲁伊地球</a>
+<li class=""><a href="https://druid-tech.github.io/bangzhu/web/earth/">德鲁伊地球</a>
   
 <ul class="sub-menu">
 
@@ -66,7 +56,7 @@
   
 </li>
 
-<li class="parent active"><a href="https://druid-tech.github.io/bangzhu/web/earth/earth/">如何使用德鲁伊地球生成动态轨迹？</a>
+<li class=""><a href="https://druid-tech.github.io/bangzhu/web/earth/earth/">如何使用德鲁伊地球生成动态轨迹？</a>
   
 </li>
 
@@ -115,7 +105,7 @@
   
 </li>
 
-<li class=""><a href="https://druid-tech.github.io/bangzhu/web/faq/">常见问题解答</a>
+<li class="parent"><a href="https://druid-tech.github.io/bangzhu/web/faq/">常见问题解答</a>
   
 <ul class="sub-menu">
 
@@ -155,7 +145,7 @@
   
 </li>
 
-<li class=""><a href="https://druid-tech.github.io/bangzhu/web/faq/nano/">NANO 与其他 DEBUT 设备有何不同？</a>
+<li class="parent active"><a href="https://druid-tech.github.io/bangzhu/web/faq/nano/">NANO 与其他 DEBUT 设备有何不同？</a>
   
 </li>
 

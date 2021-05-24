@@ -4,8 +4,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <title>为什么数据采集的间隔与我设置的不同? - Druid Online Help</title>
-<meta name="generator" content="Hugo 0.73.0" />
-<link href="https://druid-tech.github.io/bangzhu/index.xml" rel="alternate" type="application/rss+xml">
+<meta name="generator" content="Hugo 0.83.1" />
+<link href="https://druid-tech.github.io/bangzhu//index.xml" rel="alternate" type="application/rss+xml">
 <link rel="canonical" href="https://druid-tech.github.io/bangzhu/web/faq/interval_consistency/">
 <link rel="stylesheet" href="https://druid-tech.github.io/bangzhu/css/theme.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
@@ -19,7 +19,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://druid-tech.github.io/bangzhu/web/faq/interval_consistency/" />
-<meta property="og:updated_time" content="2017-10-17T15:26:15+00:00" />
+
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="为什么数据采集的间隔与我设置的不同?"/>
 <meta name="twitter:description" content=""/>
@@ -31,15 +31,17 @@
 </header>
 
 <div class="content-container">
-<main><h1>为什么数据采集的间隔与我设置的不同?</h1><p>当 <a href="/bangzhu/web/faq/boost/">BOOST</a> 开启后，设备会动态调整 GPS 和环境数据的采集频率，从而最大化利用电池并对生物的移动行为提供尽可能多的数据。</p>
-<p>借助 <a href="/bangzhu/web/faq/boost/">BOOST</a> 功能，设备可在能耗平衡的基础上自动地提高数据采集频率而无需人工干预。 您可以选择打开或关闭 <a href="/bangzhu/web/faq/boost/">BOOST</a> 功能，也可以在导出的数据中筛选带有或不带有 <a href="/bangzhu/web/faq/boost/">BOOST</a> 采集的数据。</p>
+<main><h1>为什么数据采集的间隔与我设置的不同?</h1><p>当 <a href="/bangzhu/web/faq/boost/">BOOST</a> 被触发后，设备会动态调整 GPS 和环境数据的采集频率，从而最大化利用电池并对生物的移动行为提供尽可能多的数据。因此，如果您开启了 <a href="/bangzhu/web/faq/boost/">BOOST</a> 功能，您会发现设备采集的数据间隔和您的设置不同。以下图为例：</p>
+<p><img src="https://raw.githubusercontent.com/rahjuu/color/master/查看数据.PNG" style="zoom:60%;" /></p>
+<p>上图的设备使用默认的配置工作，其位置数据和环境数据的采集间隔为 1 小时。通过上图的例子可以看到，位置数据的采集间隔大部分（绿框部分）为 1 小时，与设备配置相符。同时，一部分数据（红框部分）的间隔仅为 1 分钟左右。这是由于设备开启了 BOOST 功能，在设备满足一定条件时，会自动调整采集频率以获取更多的数据。</p>
+<p>借助 <a href="/bangzhu/web/faq/boost/">BOOST</a> 功能，设备可在能耗平衡的基础上自动地提高数据采集频率而无需人工干预。 您可以选择打开或关闭 <a href="/bangzhu/web/faq/boost/">BOOST</a> 功能，也可以在导出的数据中筛选带有或不带有 <a href="/bangzhu/web/faq/boost/">BOOST</a> 采集的数据。设备按照其配置采集的数据为计划采集，BOOST 开启后采集的数据为变频优化（根据设备电量自动调节采集频率）或飞行识别（根据设备电量和移动速度自动调节采集频率）。</p>
 <footer><p class="powered"><a href="https://www.druid.tech">Druid Technology.</a> All rights reserved.
 </footer>
 </main><div class="sidebar">
 
 <nav class="open-menu">
 <ul>
-<li class=""><a href="https://druid-tech.github.io/bangzhu">首页</a></li>
+<li class=""><a href="https://druid-tech.github.io/bangzhu/">首页</a></li>
 
 <li class="parent"><a href="https://druid-tech.github.io/bangzhu/web/">DEBUT 数据中心在线使用帮助</a>
   
@@ -139,6 +141,14 @@
 </li>
 
 <li class=""><a href="https://druid-tech.github.io/bangzhu/web/faq/movebank/">如何将数据同步到 Movebank？</a>
+  
+</li>
+
+<li class=""><a href="https://druid-tech.github.io/bangzhu/web/faq/nano/">NANO 与其他 DEBUT 设备有何不同？</a>
+  
+</li>
+
+<li class=""><a href="https://druid-tech.github.io/bangzhu/web/faq/hub/">HUB 是如何工作的？</a>
   
 </li>
 </ul>

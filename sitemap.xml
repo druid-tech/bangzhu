@@ -1,228 +1,144 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://druid-tech.github.io/bangzhu/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/app/intelink/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/app/device/setting/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/analysis/visual/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/app/intelink/on/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/app/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/analysis/export/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/app/device/cache/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/app/device/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/app/intelink/deliver_setting/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/app/intelink/download/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/app/device/add_terminal/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/app/intelink/find/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/earth/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/analysis/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/settings/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/settings/setting_terminal/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/faq/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/settings/setting_gateway/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/settings/setting_batch/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/terminology/data-exporting/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/terminology/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/terminology/track_2d/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/terminology/data-exporting/gps/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/terminology/data-exporting/env/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/terminology/data-exporting/bhv/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/terminology/data-exporting/acc/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/settings/setting_effect/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/terminology/data-exporting/bss/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/terminology/device-setting/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/faq/boost/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/faq/odba/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/faq/interval_consistency/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/faq/gateway_terminal/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/earth/multi_gps/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/earth/earth/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/faq/data_break/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/faq/billing/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/faq/gps_tolerance/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/faq/iso2excel/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/earth/duibi/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/web/faq/movebank/</loc>
     <lastmod>2017-10-17T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://druid-tech.github.io/bangzhu/web/faq/nano/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url><url>
+    <loc>https://druid-tech.github.io/bangzhu/web/faq/hub/</loc>
+    <lastmod>2017-10-17T15:26:15+00:00</lastmod>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://druid-tech.github.io/bangzhu/tags/</loc>
   </url>
-  
 </urlset>
